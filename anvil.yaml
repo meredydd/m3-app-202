@@ -1,4 +1,16 @@
 allow_embedding: false
+db_schema:
+  visitors:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: name
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      name: when
+      type: datetime
+    server: full
+    title: Visitors
 dependencies:
 - config: {}
   dep_id: dep_lin1x4oec0ytd
