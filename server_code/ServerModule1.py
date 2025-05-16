@@ -10,3 +10,10 @@ from datetime import datetime
 def say_hello(name):
     print(f"Hello, {name}!")
     app_tables.visitors.add_row(name=name, when=datetime.now())
+
+
+@anvil.server.callable
+def get_visitors():
+    return app_tables.visitors.search()
+
+    

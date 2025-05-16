@@ -1,0 +1,14 @@
+components:
+- data_bindings:
+  - {code: 'self.item[''when''].strftime(''%b %d, %Y'')', property: text, writeback: false}
+  layout_properties: {column: FXAVOX}
+  name: text_1
+  properties: {}
+  type: form:dep_lin1x4oec0ytd:_Components.Text
+- event_bindings: {click: icon_button_1_click}
+  layout_properties: {column: NXZDOS}
+  name: icon_button_1
+  properties: {align: center, appearance: tonal, icon: 'mi:delete'}
+  type: form:dep_lin1x4oec0ytd:_Components.IconButton
+container: {type: DataRowPanel}
+is_package: true

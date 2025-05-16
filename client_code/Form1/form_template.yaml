@@ -26,5 +26,17 @@ components:
   name: card_1
   properties: {}
   type: form:dep_lin1x4oec0ytd:_Components.Card
+- components:
+  - name: repeating_panel_1
+    properties: {item_template: Form1.RowTemplate1}
+    type: RepeatingPanel
+  layout_properties: {grid_position: 'XHFSVA,EAQSUY'}
+  name: data_grid_1
+  properties:
+    columns:
+    - {data_key: name, id: NIPEUV, title: Name}
+    - {data_key: when, id: FXAVOX, title: When}
+    - {data_key: column_1, expand: false, id: NXZDOS, title: Delete, width: 112.7999267578125}
+  type: DataGrid
 container: {type: ColumnPanel}
 is_package: true
